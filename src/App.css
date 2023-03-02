@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(../src/assets/JosefinSans-Italic.ttf);
+ }
+*{
+    box-sizing: border-box;
+    font-family: myFont;
+}
+body{
+    margin: 0;
+    color: white !important;
+}
+html{
+    scroll-behavior: smooth !important;    
+}
+
+  
+.home{
+    position: relative;    
+    width: 100%;
+    min-height: 100vh;
+    background-color: #080743;
+    text-align: center;
+}
+
+.home .content{    
+    width: 100%;    
+    position: absolute;    
+    top: 50%;
+    transform: translateY(-50%);
+}
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#education{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 1, 37);
+}
+#education .h-auto{
+    height: 100% !important;
+}
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+#portfolio .overflow{
+    overflow: overlay;
+}
+
+#contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 1, 37);
+}
+
+
+

@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth !important;
+}
+.card-portfolio{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}

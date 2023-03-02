@@ -1,0 +1,25 @@
+header .container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+html{
+    scroll-behavior: smooth !important;
+}
+header{
+    width: 100%;
+    z-index: 999;
+}
+ul{
+    margin: 0px !important;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    padding:10px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}

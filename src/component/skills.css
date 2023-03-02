@@ -1,0 +1,7 @@
+html{
+    scroll-behavior: smooth !important;
+}
+.skills .power-skill{
+    height: 10px;    
+    background: yellow;
+}
